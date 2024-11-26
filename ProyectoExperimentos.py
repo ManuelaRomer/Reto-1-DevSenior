@@ -1,6 +1,6 @@
 from datetime import datetime
 import statistics
-#se crea la clase experimento con atributos como nombre,fecha experimento, tipo y resultados
+#Se crea la clase experimento con atributos como nombre,fecha experimento, tipo y resultados
 class Experimento:
     def __init__(self, nombre, fechaExp, tipo, resultados):
         self.nombre = nombre
