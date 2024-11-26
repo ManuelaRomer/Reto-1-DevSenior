@@ -35,7 +35,7 @@ def agregarExperimento(listaExperimentos):
     listaExperimentos.append(experimento)
     print("Su Experimento se ha guardado.")
     
-
+# con esta funcionpodemos visaulizar el experimento con todos sus atributos
 def visualizarExperimento(listaExperimentos):
     if not listaExperimentos:
         print("No hay experimentos registrados.")
