@@ -69,7 +69,7 @@ def eliminarExperimento(listaExperimentos):
     print(f"El experimento '{nombre}' no fue encontrado")
     
 
-
+# funcion para analizar los experimentos 
 def analizarExperimentos(listaExperimentos):
     if not listaExperimentos:
         print("No hay experimentos registrados.")
@@ -93,18 +93,18 @@ def compararExperimentos(listaExperimentos):
         print(f"{i+1}. {Experimento.nombre}")
         
     try:
-        # sellecionamos los experimentos a comparar
+        # selecionamos los experimentos a comparar
         primer1 = int(input("Seleccione el número del primer experimento a comparar: ")) - 1
         segundo2 = int(input("Seleccione el número del segundo experimento a comparar: ")) - 1
         
         if primer1 < 0 or primer1 >= len(listaExperimentos) or segundo2 < 0 or segundo2 >= len(listaExperimentos):
             print("Numero no valido porfavor ingresa uno correcto")
             return
-
+        #creamos las variables que tendran las referencias de la lista
         experimento1 = listaExperimentos[primer1]
         experimento2 = listaExperimentos[segundo2]
         
-        # calculamos promedios
+        # calculamos los promedios
         promedio1 = statistics.mean(experimento1.resultados)
         promedio2 = statistics.mean(experimento2.resultados)
         
@@ -170,7 +170,7 @@ def menu():
         elif opcion == "6":
             generarInforme(listaExperimentos)
         elif opcion == "7":
-            print("Salirendo")
+            print("Saliendo")
             break
         else:
             print("Opción no válida.")
