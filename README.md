@@ -1,7 +1,7 @@
 # reto-1-DevSenior
 ## DESCRIPCIÓN DEL PROYECTO 
 ------------------------------------------
-link del video explicativo: 
+link del video explicativo: https://drive.google.com/file/d/1WoBNXCQKSApWQ-F7dNhOz-yFyjI-5Y4v/view?usp=sharing
 
 El reto 1 python fue desarollado por la academia dev senior curso python en el cual se aborda un proyecto de investigación cientifica, el cual se basa en recopilar información de experimentos de moodo que utilicemos varios temas vistos en el curso hasta ahora. 
 Este programa gestiona experimentos mediante una linea de interfaz de linea de comandos y las principales funcionalidades son:

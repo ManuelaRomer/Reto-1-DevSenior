@@ -1,15 +1,10 @@
-Nombre: permanganato
-Fecha experimento: 26/11/2024
-Tipo: Quimico
-Resultados: [5.0, 7.0, 6.0, 2.0]
-
-Nombre: volcan
-Fecha experimento: 25/11/2024
-Tipo: Biologico
-Resultados: [3.0, 8.0, 4.0, 1.0]
-
-Nombre: leche de colores
+Nombre: Volcan 
 Fecha experimento: 23/11/2024
 Tipo: Biologico
-Resultados: [3.0, 1.0, 2.0, 4.0]
+Resultados: [4.0, 6.0, 8.0, 9.0]
+
+Nombre: permanganato de potasio
+Fecha experimento: 28/11/2024
+Tipo: Quimico
+Resultados: [5.0, 7.0, 9.0, 2.0]
 
